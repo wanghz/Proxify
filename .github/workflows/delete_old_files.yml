@@ -21,6 +21,8 @@ jobs:
         run: |
           # 定义目标目录（请确认路径正确）
           TARGET_DIR="./v2ray_configs/mixed"
+          current_time=$(date +%s)
+          d_day=$((current_time + 14400))
           
           # 检查目录是否存在
           if [ ! -d "$TARGET_DIR" ]; then
@@ -28,23 +30,15 @@ jobs:
             exit 0
           fi
           
-          # 查找并删除超过60天的文件（只删文件，不删目录）
-          echo "开始清理 $TARGET_DIR 中超过5天的文件..."
-          DELETED_FILES=$(find "$TARGET_DIR" -type f -mtime +5 -print)
-          
-          # 如果没有要删除的文件，退出
-          if [ -z "$DELETED_FILES" ]; then
-            echo "没有超过60天的文件需要删除"
-            exit 0
-          fi
-          
-          # 打印要删除的文件列表（便于日志查看）
-          echo "即将删除以下文件："
-          echo "$DELETED_FILES"
-          
-          # 执行删除
-          find "$TARGET_DIR" -type f -mtime +5 -delete
-          echo "清理完成！"
+          find "$TARGET_DIR" -type f \
+            -print0 | while IFS= read -r -d '' file; do
+            commit_time=$(git log -1 --format="%ct" -- "$file")
+            line_count=$(wc -l < "$file")        
+            if [ -n "$commit_time" ] && [ "$commit_time" -ge "$d_day" ]; then
+              echo "$file" 
+              rm $file
+            fi
+          done
 
       - name: 自动创建PR提交变更
         uses: peter-evans/create-pull-request@v6
