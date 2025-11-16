@@ -56,7 +56,7 @@ jobs:
             - 清理规则：删除修改时间超过60天的文件
             - 自动生成，确认无误后可合并
           branch: auto/delete-old-migrations  # 临时分支名称
-          base: master  # 目标合并分支（如果主分支是main，这里改成main）
+          base: main  # 目标合并分支（如果主分支是main，这里改成main）
           commit-message: "chore: 删除./v2ray_configs/mixed中超过5天的旧文件"
           delete-branch: true  # PR合并后自动删除临时分支
           draft: false
