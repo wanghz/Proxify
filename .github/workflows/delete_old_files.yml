@@ -41,17 +41,9 @@ jobs:
             fi
           done
 
-      - name: 自动创建PR提交变更
-        uses: peter-evans/create-pull-request@v6
-        with:
-          title: "chore: 删除超过60天的旧迁移文件"
-          body: |
-            自动执行的旧文件清理任务：
-            - 清理目录：./v2ray_configs/mixed
-            - 清理规则：删除修改时间超过60天的文件
-            - 自动生成，确认无误后可合并
-          branch: auto/delete-old-migrations  # 临时分支名称
-          base: main  # 目标合并分支（如果主分支是main，这里改成main）
-          commit-message: "chore: 删除./v2ray_configs/mixed中超过5天的旧文件"
-          delete-branch: true  # PR合并后自动删除临时分支
-          draft: false
+      - name: Commit and push deletions
+        run: |
+          git add -A
+          git commit -m "chore: 删除旧文件" || echo "No changes to commit"
+          git push origin main
+
