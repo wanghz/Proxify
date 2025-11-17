@@ -20,8 +20,8 @@ V2RAY_LINKS = [
     'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vmess',
     'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/trojan',
     'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/shadowsocks',
-    'https://raw.githubusercontent.com/ts-sf/fly/main/v2',
-    'https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2',
+    #'https://raw.githubusercontent.com/ts-sf/fly/main/v2',
+    #'https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2',
     'https://mrpooya.top/SuperApi/BE.php',
     'https://v2.alicivil.workers.dev',
     'https://gist.githubusercontent.com/WLget/aeb222e378a8dcbd74e06413dbacf400/raw/base64.txt',
@@ -35,7 +35,7 @@ V2RAY_LINKS = [
     'https://raw.githubusercontent.com/itsyebekhe/PSG/main/lite/subscriptions/xray/normal/mix',
     'https://raw.githubusercontent.com/HosseinKoofi/GO_V2rayCollector/main/mixed_iran.txt',
     'https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html',
-    'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
+    #'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
     'https://raw.githubusercontent.com/Rayan-Config/C-Sub/refs/heads/main/configs/proxy.txt',
     'https://raw.githubusercontent.com/sashalsk/V2Ray/main/V2Config',
     'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt',
@@ -274,16 +274,16 @@ def main():
     start_time = time.time()
     cleanup_old_files()
     
-    ensure_directory_exists('telegram_proxies')
-    ensure_directory_exists('proxies')
+    #ensure_directory_exists('telegram_proxies')
+    #ensure_directory_exists('proxies')
     ensure_directory_exists('v2ray_configs/mixed')
     ensure_directory_exists('v2ray_configs/seperated_by_protocol')
     
     with ThreadPoolExecutor(max_workers=7) as executor:
-        executor.submit(get_proxy, 'socks4')
-        executor.submit(get_proxy, 'socks5')
-        executor.submit(get_proxy, 'http')
-        executor.submit(get_proxy, 'https')
+        #executor.submit(get_proxy, 'socks4')
+        #executor.submit(get_proxy, 'socks5')
+        #executor.submit(get_proxy, 'http')
+        #executor.submit(get_proxy, 'https')
         executor.submit(get_mtproto, 0)
         executor.submit(get_mtproto, 1)
         executor.submit(get_v2ray)
