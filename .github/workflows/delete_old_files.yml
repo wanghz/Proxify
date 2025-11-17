@@ -21,8 +21,9 @@ jobs:
         run: |
           # 定义目标目录（请确认路径正确）
           TARGET_DIR="./v2ray_configs/mixed"
+          days=3   # 举例，超过7天的文件
           current_time=$(date +%s)
-          d_day=$((current_time + 14400))
+          threshold=$((current_time - days*24*3600))
           
           # 检查目录是否存在
           if [ ! -d "$TARGET_DIR" ]; then
@@ -30,13 +31,13 @@ jobs:
             exit 0
           fi
           
+          #find "$TARGET_DIR" -type f -mtime +3 -exec rm {} \;
           find "$TARGET_DIR" -type f \
             -print0 | while IFS= read -r -d '' file; do
             commit_time=$(git log -1 --format="%ct" -- "$file")
-            line_count=$(wc -l < "$file")        
-            if [ -n "$commit_time" ] && [ "$commit_time" -ge "$d_day" ]; then
+            if [ -n "$commit_time" ] && [ "$commit_time" -lt "$threshold" ]; then
               echo "$file" 
-              rm $file
+              rm "$file"
             fi
           done
 
