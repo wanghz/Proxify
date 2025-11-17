@@ -41,9 +41,10 @@ jobs:
             fi
           done
 
-      - name: Commit and push deletions
+      - name: Commit and push changes
         run: |
-          git add -A
-          git commit -m "chore: 删除旧文件" || echo "No changes to commit"
-          git push origin main
-
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "🔄 delete outdated [$(date +'%Y-%m-%d %H:%M')]"
+          git push
