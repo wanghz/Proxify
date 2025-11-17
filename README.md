@@ -1,14 +1,4 @@
 
-#
-
-Automated proxy configuration tool that collects fresh SOCKS4, SOCKS5, HTTP/HTTPS proxies, MTProto (Telegram), and V2Ray configs from verified public sources. Get working proxies in seconds!
-
-
-Help us maintain the best free proxy service:
-
-- **Add** new reliable proxy sources
-- **Report** broken sources
-- **Optimize** performance
 
 ## Disclaimer ⚠️
 
