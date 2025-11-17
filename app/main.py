@@ -134,9 +134,9 @@ def clean_proxy_line(line):
 def get_metadata_headers():
     return """#profile-title: base64:8J+GkyBHaXQ6IEBGaXJtZm94IOKbk++4j+KAjfCfkqU=
 #profile-update-interval: 1
-#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
+#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531"""
 #support-url: https://github.com/firmfox/Proxify
-#profile-web-page-url: https://github.com/firmfox/Proxify\n"""
+#profile-web-page-url: https://github.com/firmfox/Proxify\n
 
 def organize_configs(configs):
     protocol_map = {
@@ -284,8 +284,8 @@ def main():
         #executor.submit(get_proxy, 'socks5')
         #executor.submit(get_proxy, 'http')
         #executor.submit(get_proxy, 'https')
-        executor.submit(get_mtproto, 0)
-        executor.submit(get_mtproto, 1)
+        #executor.submit(get_mtproto, 0)
+        #executor.submit(get_mtproto, 1)
         executor.submit(get_v2ray)
     
     print(f"Execution completed in {time.time() - start_time:.2f} seconds")
