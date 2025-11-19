@@ -11,9 +11,8 @@ MT_PROTO_LINKS = [
 ]
 
 V2RAY_LINKS = [
-    'https://raw.githubusercontent.com/MrPooyaX/VpnsFucking/main/BeVpn.txt',
-    'https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/base64/mix',
-    'https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt',
+    'https://raw.githubusercontent.com/iboxz/free-v2ray-collector/main/main/mix',
+    'https://sub.proxygo.org/v2ray.php?key=81930cc79a442f7a7a20560f6e81f326',
     'https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray',
     'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/reality',
     'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vless',
@@ -22,7 +21,7 @@ V2RAY_LINKS = [
     'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/shadowsocks',
     #'https://raw.githubusercontent.com/ts-sf/fly/main/v2',
     #'https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2',
-    'https://mrpooya.top/SuperApi/BE.php',
+    #'https://mrpooya.top/SuperApi/BE.php',
     'https://v2.alicivil.workers.dev',
     'https://gist.githubusercontent.com/WLget/aeb222e378a8dcbd74e06413dbacf400/raw/base64.txt',
     'https://raw.githubusercontent.com/MrPooyaX/VpnsFucking/main/BeVpn.txt',
@@ -33,7 +32,7 @@ V2RAY_LINKS = [
     'https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_4.txt',
     'https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed',
     'https://raw.githubusercontent.com/itsyebekhe/PSG/main/lite/subscriptions/xray/normal/mix',
-    'https://raw.githubusercontent.com/HosseinKoofi/GO_V2rayCollector/main/mixed_iran.txt',
+    #'https://raw.githubusercontent.com/HosseinKoofi/GO_V2rayCollector/main/mixed_iran.txt',
     'https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html',
     #'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
     'https://raw.githubusercontent.com/Rayan-Config/C-Sub/refs/heads/main/configs/proxy.txt',
@@ -48,7 +47,7 @@ V2RAY_LINKS = [
     'https://raw.githubusercontent.com/code3-dev/v-data/refs/heads/main/vip',
     'https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub',
     'https://raw.githubusercontent.com/shabane/kamaji/master/hub/b64/merged.txt',
-    'https://raw.githubusercontent.com/MrAbolfazlNorouzi/iran-configs/refs/heads/main/configs/working-configs.txt',
+    #'https://raw.githubusercontent.com/MrAbolfazlNorouzi/iran-configs/refs/heads/main/configs/working-configs.txt',
     'https://www.v2nodes.com/subscriptions/country/all/',
     'https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt',
     'https://raw.githubusercontent.com/crackbest/V2ray-Config/refs/heads/main/config.txt'
