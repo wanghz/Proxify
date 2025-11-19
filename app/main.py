@@ -119,6 +119,7 @@ def fetch_url(url):
         response.raise_for_status()
         return response.text
     except requests.exceptions.RequestException:
+        print("error url:", url)
         return None
 
 def clean_proxy_line(line):
