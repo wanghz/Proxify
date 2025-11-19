@@ -42,13 +42,13 @@ V2RAY_LINKS = [
     'https://raw.githubusercontent.com/shabane/kamaji/master/hub/b64/merged.txt',
     #'https://raw.githubusercontent.com/MrAbolfazlNorouzi/iran-configs/refs/heads/main/configs/working-configs.txt',
     'https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt',
-    'https://raw.githubusercontent.com/crackbest/V2ray-Config/refs/heads/main/config.txt'
-    'https://github.com/ebrasha/free-v2ray-public-list/blob/main/V2Ray-Config-By-EbraSha-All-Type.txt'
-    'https://raw.githubusercontent.com/Sage-77/V2ray-configs/refs/heads/main/hysteria2.txt'
-    'https://raw.githubusercontent.com/Sage-77/V2ray-configs/refs/heads/main/warp.txt'
-    'https://raw.githubusercontent.com/Sage-77/V2ray-configs/refs/heads/main/trojan.txt'
-    'https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/filtered/subs/hysteria2.txt'
-    'https://raw.githubusercontent.com/xiaoji235/airport-free/refs/heads/main/v2ray.txt'
+    'https://raw.githubusercontent.com/crackbest/V2ray-Config/refs/heads/main/config.txt',
+    'https://github.com/ebrasha/free-v2ray-public-list/blob/main/V2Ray-Config-By-EbraSha-All-Type.txt',
+    'https://raw.githubusercontent.com/Sage-77/V2ray-configs/refs/heads/main/hysteria2.txt',
+    'https://raw.githubusercontent.com/Sage-77/V2ray-configs/refs/heads/main/warp.txt',
+    'https://raw.githubusercontent.com/Sage-77/V2ray-configs/refs/heads/main/trojan.txt',
+    'https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/filtered/subs/hysteria2.txt',
+    'https://raw.githubusercontent.com/xiaoji235/airport-free/refs/heads/main/v2ray.txt',
     'https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Splitted-By-Protocol/trojan.txt'
 ]
 
