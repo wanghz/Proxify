@@ -14,11 +14,6 @@ V2RAY_LINKS = [
     'https://raw.githubusercontent.com/iboxz/free-v2ray-collector/main/main/mix',
     'https://sub.proxygo.org/v2ray.php?key=81930cc79a442f7a7a20560f6e81f326',
     'https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray',
-    'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/reality',
-    'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vless',
-    'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vmess',
-    'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/trojan',
-    'https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/shadowsocks',
     #'https://raw.githubusercontent.com/ts-sf/fly/main/v2',
     #'https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2',
     #'https://mrpooya.top/SuperApi/BE.php',
@@ -36,21 +31,25 @@ V2RAY_LINKS = [
     'https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html',
     #'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
     'https://raw.githubusercontent.com/Rayan-Config/C-Sub/refs/heads/main/configs/proxy.txt',
-    'https://raw.githubusercontent.com/sashalsk/V2Ray/main/V2Config',
     'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt',
     'https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/mix',
     'https://raw.githubusercontent.com/sarinaesmailzadeh/V2Hub/main/merged',
     'https://raw.githubusercontent.com/freev2rayconfig/V2RAY_SUBSCRIPTION_LINK/main/v2rayconfigs.txt',
     'https://raw.githubusercontent.com/Everyday-VPN/Everyday-VPN/main/subscription/main.txt',
-    'https://raw.githubusercontent.com/C4ssif3r/V2ray-sub/main/all.txt',
     'https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt',
     'https://raw.githubusercontent.com/code3-dev/v-data/refs/heads/main/vip',
     'https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub',
     'https://raw.githubusercontent.com/shabane/kamaji/master/hub/b64/merged.txt',
     #'https://raw.githubusercontent.com/MrAbolfazlNorouzi/iran-configs/refs/heads/main/configs/working-configs.txt',
-    'https://www.v2nodes.com/subscriptions/country/all/',
     'https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt',
     'https://raw.githubusercontent.com/crackbest/V2ray-Config/refs/heads/main/config.txt'
+    'https://github.com/ebrasha/free-v2ray-public-list/blob/main/V2Ray-Config-By-EbraSha-All-Type.txt'
+    'https://raw.githubusercontent.com/Sage-77/V2ray-configs/refs/heads/main/hysteria2.txt'
+    'https://raw.githubusercontent.com/Sage-77/V2ray-configs/refs/heads/main/warp.txt'
+    'https://raw.githubusercontent.com/Sage-77/V2ray-configs/refs/heads/main/trojan.txt'
+    'https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/filtered/subs/hysteria2.txt'
+    'https://raw.githubusercontent.com/xiaoji235/airport-free/refs/heads/main/v2ray.txt'
+    'https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Splitted-By-Protocol/trojan.txt'
 ]
 
 PROXY_LINKS = {
