@@ -31,7 +31,7 @@ V2RAY_LINKS = [
     #'https://raw.githubusercontent.com/IranianCypherpunks/sub/main/config',
     'https://raw.githubusercontent.com/Rayan-Config/C-Sub/refs/heads/main/configs/proxy.txt',
     'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt',
-    'https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/mix',
+    #'https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/mix',
     'https://raw.githubusercontent.com/Everyday-VPN/Everyday-VPN/main/subscription/main.txt',
     'https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt',
     'https://raw.githubusercontent.com/code3-dev/v-data/refs/heads/main/vip',
