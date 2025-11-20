@@ -11,7 +11,7 @@ MT_PROTO_LINKS = [
 ]
 
 V2RAY_LINKS = [
-    'https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/clash.yml'，
+    'https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/clash.yml',
     'https://raw.githubusercontent.com/shichongzheng/v2rayfree/main/v2rayfree',
     'https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/Vless.txt',
     'https://raw.githubusercontent.com/pachangcheng/mianfeijiedian/refs/heads/main/should.txt',
