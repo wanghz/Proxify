@@ -11,6 +11,10 @@ MT_PROTO_LINKS = [
 ]
 
 V2RAY_LINKS = [
+    'https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/clash.yml'，
+    'https://raw.githubusercontent.com/shichongzheng/v2rayfree/main/v2rayfree',
+    'https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/Vless.txt',
+    'https://raw.githubusercontent.com/pachangcheng/mianfeijiedian/refs/heads/main/should.txt',
     'https://raw.githubusercontent.com/iboxz/free-v2ray-collector/main/main/mix',
     'https://sub.proxygo.org/v2ray.php?key=81930cc79a442f7a7a20560f6e81f326',
     'https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray',
