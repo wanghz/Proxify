@@ -12,6 +12,11 @@ MT_PROTO_LINKS = [
 
 V2RAY_LINKS = [
     'https://sub.proxygo.org/v2ray.php?key=93433088a8a2bce80cdab6612649af66',
+    'https://raw.githubusercontent.com/kismetpro/NodeSuber/refs/heads/main/Splitted-By-Protocol/vmess.txt',
+    'https://raw.githubusercontent.com/kismetpro/NodeSuber/refs/heads/main/Splitted-By-Protocol/vless.txt',
+    'https://raw.githubusercontent.com/kismetpro/NodeSuber/refs/heads/main/Splitted-By-Protocol/trojan.txt',
+    'https://raw.githubusercontent.com/kismetpro/NodeSuber/refs/heads/main/Splitted-By-Protocol/ss.txt',
+    'https://raw.githubusercontent.com/kismetpro/NodeSuber/refs/heads/main/Splitted-By-Protocol/hy2.txt',
     'https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/clash.yml',
     'https://raw.githubusercontent.com/shichongzheng/v2rayfree/main/v2rayfree',
     'https://raw.githubusercontent.com/gslege/CloudflareIP/refs/heads/main/Vless.txt',
