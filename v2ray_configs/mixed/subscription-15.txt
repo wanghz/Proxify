@@ -1,15 +1,6 @@
 #profile-title: base64:8J+GkyBHaXQ6IEBGaXJtZm94IOKbk++4j+KAjfCfkqU=
 #profile-update-interval: 1
-#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531ss://6202b230-417c-4d8e-b624-0f71afa9c75d@78.158.166.180:2096?path=%2F%3Fed%3D2560&amp;security=tls&amp;encryption=none&amp;host=sni.jpmj.dev&amp;fp=chrome&amp;type=ws&amp;sni=sni.jpmj.dev#%40JynMarket-%D9%85%D8%AA%D9%88%D8%AF%D8%B3%D8%A7%DB%8C%D9%81%D9%88%D9%86%C2%B3
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.23:38388#120-%F0%9F%87%BB%F0%9F%87%B3%20VN%F0%9F%90%AD%40GheychiAmoozesh
-vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.29:23576/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fuck.rkn&fp=chrome&security=reality&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&sid=01#%3E%3E%40oneclickvpnkeys%3A%3ANL
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@51.102.234.18:22224?type=ws&amp;security=tls&amp;path=%2Ftelegram-channel-vlessconfig&amp;sni=trojan.burgerip.co.uk#@VlessConfig
-vless://16f9a0c4-6686-4128-b5c7-fe51c4229113@143.110.169.62:57599?type=tcp&amp;security=reality&amp;pbk=2Yw1JllwNzE4VoRQP5QYA8OfB2Hy8TCNi5R4ZtpA0hk&amp;fp=firefox&amp;sni=*.sourceforge.net&amp;sid=64115850&amp;spx=%2F#@Capital_NET
-vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@91.193.58.134:8880?path=%2F&security=&encryption=none&host=us.laoyoutiao.link&type=ws&sni=us.laoyoutiao.link#GB_speednode_0142
-vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.visa.com.hk:443?encryption=none&security=tls&sni=misaka.cndyw.ggff.net&fp=random&type=ws&host=misaka.cndyw.ggff.net&path=%2F%3Fed%3D2560#优选|域名|385ms
-trojan://humanity@188.114.98.0:443?security=tls&sni=www.multiplydose.com&fp=chrome&type=ws&host=www.multiplydose.com&path=%2Fassignment#%F0%9F%9F%A2%20telegram%3A%20%40tajrobe_wiki%20%F0%9F%9F%A2
-trojan://telegram-id-directvpn@18.156.124.169:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🌐سرور 173 | Far-20|t.me/Crackbest2
-vless://fa335d1c-e6d1-48bb-99a3-f06710a29043@afrcloud22.mmv.kr:443?path=/130.185.164.213=8443&security=tls&encryption=none&insecure=0&host=afrcloud22.mmv.kr&type=ws&allowInsecure=0&sni=afrcloud22.mmv.kr#🇨🇦 CA | 2606:4700:20::ac43:490e
-vless://d2f66ace-8e0e-4cd4-bafe-d6a126bcd127@star.fast-uploader.net:6004?security=none&encryption=none&host=cafeariel.ir&headerType=http&fp=chrome&type=tcp#[🇮🇷]t.me/ConfigsHub
-ss://8f646a01-2cc1-4270-ad43-f87e157e4d44@webshecan.webredirect.org:2087?type=tcp&amp;security=reality&amp;fp=chrome&amp;pbk=2M6UwPCIFyRuf41xzoiHRo_5DUDNBs8lfe-sK3c8-Dw&amp;sni=www.speedtest.net&amp;flow=xtls-rprx-vision&amp;sid=53242a95&amp;spx=%2F#%40WebShecan-29Mordad-1
-vless://ca89921a-c01d-4a96-961e-fdeb52ed6513@root.configforvpn.fun:443?path=%2Fcdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;host=root.configforvpn.fun&amp;fp=chrome&amp;type=ws&amp;sni=root.configforvpn.fun#%40ConfigforVPN
+#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531vless://363a6072-05d7-48d5-8f19-312b05fdd9cd@www.visa.com.sg:2052?encryption=none&host=chosenflyesqt-q3y28ipf-v3.chosen-fly-esqt.workers.dev&path=%2F&security=none&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AXX
+hysteria2://siEk2SjZFG@adas-polo-ba-mahi.kotlet.org:2083?insecure=1&sni=ghasem.kotlet.org&obfs=salamander&obfs-password=ki(rtoko(s-maret-khamneii#⚡ b2n.ir/v2ray-configs | 417
+trojan://telegram-id-directvpn@35.181.184.47:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#🌐سرور 169 | Far-20|t.me/Crackbest2
+vless://1027b850-de79-4a94-b337-eccdac28e141@chatgpt.com:443?encryption=none&host=g.sandesh.qzz.io&path=%2Fvless&security=tls&sni=g.sandesh.qzz.io&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AXX
