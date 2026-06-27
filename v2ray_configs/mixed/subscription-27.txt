@@ -1,4 +1,4 @@
 #profile-title: base64:8J+GkyBHaXQ6IEBGaXJtZm94IOKbk++4j+KAjfCfkqU=
 #profile-update-interval: 1
-#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531vless://f9214951-be93-4e3d-8c14-b9ba991f8f30@zeus-panel-idoxmd.zeus-ptqez6.workers.dev:8080?path=/&security=none&encryption=none&insecure=0&host=zeus-panel-idoxmd.zeus-ptqez6.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=zeus-panel-idoxmd.zeus-ptqez6.workers.dev#@ReleaseNet
-vless://9a079093-5e37-4a95-894c-b546678760e3@pc.amirxshot.ir:8443?path=%2Faxs&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=pc.amirxshot.ir&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=axs.amirxshot.ir#telegram%20%40mtmvpn
+#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531ss://YWVzLTEyOC1nY206dDZkMjZpZDBwanpkbzN4NXd0bGY=@69.164.240.83:10878#🇺🇸
+vless://a0d65477-2965-4969-a174-bb8390064734@185.143.233.235:443?path=/api/v3/s3&security=tls&encryption=none&insecure=0&host=ns.vaslpro.com&fp=chrome&type=ws&allowInsecure=0&sni=ns.vaslpro.com#telegram @mtmvpn
